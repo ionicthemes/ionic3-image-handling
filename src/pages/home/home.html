@@ -1,14 +1,21 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Ionic Blank
+      Images
     </ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <ion-card *ngFor="let photo of photos">
+    <img src="{{photo}}" />
+  </ion-card>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <button ion-button block (click)="presentActionSheet()">Select Pictures</button>
+  </ion-toolbar>
+</ion-footer>

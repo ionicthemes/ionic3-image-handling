@@ -1,5 +1,8 @@
 {
-  "name": "image-handling-new",
+  "name": "ionic3-image-handling",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

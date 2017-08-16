@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This repository is part of an ionic tutorial that explains how to access the image gallery and take pictures from an ionic app. Also we will show you how to add an image cropper. This ionic tutorial includes a working example you can reuse for your needs!
 
-## How to use this template
+Check the complete step by step tutorial in: https://ionicthemes.com/tutorials/about/ionic-2-image-handling
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## Installation
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+Install  dependencies
+```sh
+npm install
 ```
+## Run the ionic app
 
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+The plugins required in this app use cordova, so it will not work in the browser. You need to try it on a real device or on an emulator
+```sh
+ionic cordova platform add android
+ionic cordova run android
 ```
-
-Substitute ios for android if not on a Mac.
-
