@@ -2,6 +2,9 @@ This repository is part of an ionic tutorial that explains how to access the ima
 
 Check the complete step by step tutorial in: https://ionicthemes.com/tutorials/about/ionic-2-image-handling
 
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/ionic-2-image-handling/1.png?v=1)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/ionic-2-image-handling/2.png?v=1)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/ionic-2-image-handling/3.png?v=1)
 
 ## Installation
 
